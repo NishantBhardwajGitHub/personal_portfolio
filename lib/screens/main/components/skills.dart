@@ -73,6 +73,17 @@ class Skills extends StatelessWidget {
               ),
             )
           ],
+        ),
+        Row(
+          children: [
+            Expanded(
+              child: AnimatedCircularProgressIndicator(
+                percentage: 0.7,
+                label: "Firebase",
+              ),
+            ),
+            
+          ],
         )
       ],
     );
