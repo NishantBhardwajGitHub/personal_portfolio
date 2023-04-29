@@ -22,6 +22,7 @@ class Languages extends StatelessWidget {
         AnimatedLinearProgressIndicator(percentage: 0.9, label: "C++",),
         AnimatedLinearProgressIndicator(percentage: 0.75, label: "Java",),
         AnimatedLinearProgressIndicator(percentage: 0.7, label: "Dart",),
+        AnimatedLinearProgressIndicator(percentage: 0.8, label: "SQL",),
       
       ],
     );
