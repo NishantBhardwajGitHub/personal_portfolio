@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 import 'package:flutter_profile/screens/main/components/animated_counter.dart';
 import 'package:flutter_profile/screens/main/components/my_projects.dart';
 import 'package:flutter_profile/screens/main/components/recommendation_bottom.dart';
@@ -18,7 +17,7 @@ class HomeScreen extends StatelessWidget {
         HomeBanner(),
         HighlighterText(),
         MyProjects(),
-        Recommendations()
+        // Recommendations()
       ],
     );
   }
